@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Noto Sans Japanese', sans-serif;
+  background-color: #fbfbfb;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  -webkit-animation: 3s ease 0s normal forwards 1 fadein;
+  animation: 3s ease 0s normal forwards 1 fadein;
+  color: #4c4c4c;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+}
+
+@keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+section {
+  width: 100%;
+  height: 100%;
+}
