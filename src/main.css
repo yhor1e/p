@@ -38,9 +38,52 @@ h1{
   100% { opacity:1; }
 }
 
-section {
+section#first {
   width: 100%;
   height: 100%;
+}
+
+section#second {
+  width: 100%;
+  height: 100%;
+  background-color: #666666
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav > ul {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav > ul > li {
+  display: inline-block;
+  width: 100%;
+  background-color: #02aa9d;
+  border-left: 1px solid white;
+}
+
+.nav > ul > li > a{
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #666666
 }
 
 
